@@ -1,5 +1,7 @@
 import re
-f = open("input.txt", "r")
+import os
+import sys
+f = open(os.path.join(sys.path[0],"input.txt"), "r")
 
 coordinates = f.read().split("\n")
 totals = []
